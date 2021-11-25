@@ -20,7 +20,7 @@ jobs:
           command: mvn -B -DskipTests clean package
       # Then run your tests!
       - run:
-         name: Deploy
+          name: Deploy
           command: mvn package deploy -DmuleDeploy -Danypoint.username=anmol4742 -Danypoint.password=ANM@sha@1234 
 
 workflows:
