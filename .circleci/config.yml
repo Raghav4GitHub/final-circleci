@@ -19,9 +19,9 @@ jobs:
           name: Build
           command: mvn -B -DskipTests clean package
       # Then run your tests!
-      #- run:
-      #   name: Deploy
-      #    command: 'mvn package deploy -DmuleDeploy -Danypoint.username=${mule_username} -Danypoint.password=${mule_password}' 
+      - run:
+         name: Deploy
+          command: 'mvn package deploy -DmuleDeploy -Danypoint.username=anmol4742 -Danypoint.password=ANM@sha@1234' 
 
 workflows:
   # Below is the definition of your workflow.
