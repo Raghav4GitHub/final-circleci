@@ -22,8 +22,11 @@ jobs:
       - run:
           name: Deploy
           command: mvn package deploy -DmuleDeploy -Danypoint.username=anmol8191 -Danypoint.password=ANM@sha@123 
+         
+      - run:
+          name: Deploy
           command: mvn package deploy -DmuleDeploy -Danypoint.username=anmol-1 -Danypoint.password=ANM@sha@123 
-                    
+         
 workflows:
   # Below is the definition of your workflow.
   # Inside the workflow, you provide the jobs you want to run, e.g this workflow runs the build-and-test job above.
