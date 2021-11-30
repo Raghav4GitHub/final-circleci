@@ -17,22 +17,7 @@
 		
 	</properties>
 	
-	<profiles>
-		<profile>
-            <id>user1</id>
-            <properties>
-				<username>anmol8191</username>
-            </properties>			
-        </profile>
-		<profile>
-            <id>user2</id>
-            <properties>
-				<username>anmol-1</username>
-            </properties>			
-        </profile>
-
-	</profiles>
-
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -49,7 +34,7 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.3.0</muleVersion>
-						<username>${mule.username}</username>
+						<username>anmol-1</username>
 						<password>ANM@sha@123</password>
 						<applicationName>circle-ci-demo</applicationName>
 						<environment>Sandbox</environment>
