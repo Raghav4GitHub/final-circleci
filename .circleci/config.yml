@@ -21,10 +21,10 @@ jobs:
       # Then run your tests !
       - run:
           name: Deploy1
-          command: mvn package deploy -DmuleDeploy -Danypoint.username=anmol-1 -Danypoint.password=ANM@sha@123 -Puser1 
+          command: mvn package deploy -DmuleDeploy -Danypoint.username=anmol8191 -Danypoint.password=ANM@sha@123 -Puser1 
       - run:
           name: Deploy2
-          command: mvn package deploy -DmuleDeploy -Danypoint.username=anmol8191 -Danypoint.password=ANM@sha@123 -Puser2
+          command: mvn package deploy -DmuleDeploy -Danypoint.username=anmol-1 -Danypoint.password=ANM@sha@123 -Puser2
      
 
 
