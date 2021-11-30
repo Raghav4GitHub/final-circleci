@@ -18,6 +18,12 @@ jobs:
       - run:
           name: Build
           command: mvn -B -DskipTests clean package
+          
+      - run:
+          name: Build
+          command: mvn package deploy -DmuleDeploy -Danypoint.username=anmol8191 -Danypoint.password=ANM@sha@123
+         
+         
          
 workflows:
   # Below is the definition of your workflow.
