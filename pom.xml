@@ -21,13 +21,13 @@
 		<profile>
             <id>user1</id>
             <properties>
-				<username>anmol-1</username>
+				<username>anmol8191</username>
             </properties>			
         </profile>
 		<profile>
             <id>user2</id>
             <properties>
-				<username>anmol8191</username>
+				<username>anmol-1</username>
             </properties>			
         </profile>
 
