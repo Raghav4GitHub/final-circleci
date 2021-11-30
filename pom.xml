@@ -12,10 +12,26 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 		<app.runtime>4.3.0-20210322</app.runtime>
 		<mule.maven.plugin.version>3.5.1</mule.maven.plugin.version>
+		
 	</properties>
+	
+	<profiles>
+		<profile>
+            <id>user1</id>
+            <properties>
+				<username>anmol-1</username>
+            </properties>			
+        </profile>
+		<profile>
+            <id>user2</id>
+            <properties>
+				<username>anmol8191</username>
+            </properties>			
+        </profile>
+
+	</profiles>
 
 	<build>
 		<plugins>
@@ -33,7 +49,7 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.3.0</muleVersion>
-						<username>anmol8191</username>
+						<username>${mule.username}</username>
 						<password>ANM@sha@123</password>
 						<applicationName>circle-ci-demo</applicationName>
 						<environment>Sandbox</environment>
