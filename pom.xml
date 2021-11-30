@@ -33,18 +33,6 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.3.0</muleVersion>
-						<username>anmol8191</username>
-						<password>ANM@sha@123</password>
-						<applicationName>final-circle</applicationName>
-						<environment>Sandbox</environment>
-						<workerType>MICRO</workerType>
-						<region>us-east-2</region>
-						<workers>1</workers>
-						<objectStoreV2>true</objectStoreV2>
-					</cloudHubDeployment>
-				      	<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.3.0</muleVersion>
 						<username>anmol-1</username>
 						<password>ANM@sha@123</password>
 						<applicationName>final-circle</applicationName>
