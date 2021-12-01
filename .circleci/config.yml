@@ -19,12 +19,10 @@ jobs:
           name: Build
           command: mvn -B -DskipTests clean package
       # Then run your tests !
-      - run:
+      - run:  
           name: Deploy2
           command: mvn package deploy -DmuleDeploy -Danypoint.username=anmol8191 -Danypoint.password=ANM@sha@123
      
-
-
 workflows:
   # Below is the definition of your workflow.
   # Inside the workflow, you provide the jobs you want to run, e.g this workflow runs the build-and-test job above.
