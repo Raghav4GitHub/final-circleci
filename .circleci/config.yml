@@ -21,7 +21,7 @@ jobs:
       # Then run your tests !
       - run:
           name: Deploy2
-          command: mvn package deploy -DmuleDeploy -Danypoint.username=anmol8191 -Danypoint.password=ANM@sha@123
+          command: mvn package deploy -DmuleDeploy -Danypoint.username=${mule_username} -Danypoint.password=${mule_password}
      
 
 
