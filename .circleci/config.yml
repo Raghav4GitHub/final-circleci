@@ -20,7 +20,7 @@ jobs:
           command: mvn -B -DskipTests clean package
       # Then run your tests !
       - run:
-          name: Deploy2
+          name: Deploy
           command: mvn package deploy -DmuleDeploy -Danypoint.username=${mule_username} -Danypoint.password=${mule_password}
      
 
