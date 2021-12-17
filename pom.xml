@@ -17,7 +17,6 @@
 		
 	</properties>
 	
-	
 	<build>
 		<plugins>
 			<plugin>
